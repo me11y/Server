@@ -13,7 +13,7 @@ public class Account {
     @Column(name = "password")
     private String password;
 
-    //следующее, возможно, следует занести в отдельный класс - Player, после чего связать его с аккаунтом
+    //следующее относится к данным об игроке
     @Column(name= "gold")
     private long gold;
     @Column(name = "damage")
